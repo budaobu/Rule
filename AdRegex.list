@@ -1,0 +1,9 @@
+URL-REGEX,^http://b-api\.ins\.miaopai\.com/1/ad/
+URL-REGEX,^http://music\.163\.com/eapi/(ad|ios|log)/
+URL-REGEX,^http://shp\.qpic\.cn/pggamehead/.+&w=1242&h=2208$
+URL-REGEX,^http://\w+\.kuwo\.cn/(AdService|EcomResourceServer)/
+URL-REGEX,^https?://s3plus\.meituan\.net/v1/\w+/linglong/
+URL-REGEX,^http://c\.tieba\.baidu\.com/c/s/splashSchedule
+URL-REGEX,^https?://gw\.alicdn\.com/.+jpg_960x960q90_\.heic$
+URL-REGEX,^https?://dimg\d{2}.c-ctrip.com/images/.+_750_1334
+URL-REGEX,^https?://mlife\.cmbchina\.com/ClientFaceService/preCacheAdvertise.json$

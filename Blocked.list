@@ -1,0 +1,115 @@
+AND,((DOMAIN-KEYWORD,gstatic), (NOT,((GEOIP,CN))))
+AND,((DOMAIN-KEYWORD,google), (NOT,((GEOIP,CN))))
+AND,((DOMAIN-KEYWORD,amazon), (NOT,((USER-AGENT,cloudd*))))
+
+# Misc
+DOMAIN,j.mp
+DOMAIN,bit.ly
+DOMAIN,git.io
+DOMAIN,goo.gl
+DOMAIN,shrtm.nu
+DOMAIN,appsto.re
+DOMAIN-SUFFIX,ampproject.org
+DOMAIN-SUFFIX,ampproject.net
+DOMAIN-SUFFIX,ampproject.com
+DOMAIN-SUFFIX,bitbucket.org
+DOMAIN-SUFFIX,ccilink.com
+DOMAIN-SUFFIX,mahua.cc
+DOMAIN-SUFFIX,doub.io
+DOMAIN-SUFFIX,rsshub.app
+DOMAIN-SUFFIX,trello.com
+DOMAIN-SUFFIX,trellocdn.com
+DOMAIN-SUFFIX,tumblr.com
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,mume.red
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,xuehua.us
+DOMAIN-SUFFIX,yimg.com
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,pinimg.com
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,teddysun.com
+DOMAIN-SUFFIX,v2ex.co
+DOMAIN-SUFFIX,v2ray.com
+DOMAIN-SUFFIX,shadowsocks.org
+
+# Apple Music
+DOMAIN,aod.itunes.apple.com
+DOMAIN,audio.itunes.apple.com
+DOMAIN,audio-ssl.itunes.apple.com
+DOMAIN,streamingaudio.itunes.apple.com
+
+# Box
+DOMAIN-SUFFIX,box.net
+DOMAIN-SUFFIX,box.com
+DOMAIN-SUFFIX,boxcdn.net
+
+# Dropbox
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropboxapi.com
+DOMAIN-SUFFIX,dropboxstatic.com
+
+# Facebook
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+
+# Google
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,blog.com
+DOMAIN-SUFFIX,blogcdn.com
+DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,blogsmithmedia.com
+DOMAIN-SUFFIX,blogspot.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,ggpht.com
+
+# GitHub
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+
+# YouTube
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,youtube.com
+
+# Wikipedia
+DOMAIN-SUFFIX,wikipedia.com
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikimedia.org
+
+# TikTok
+DOMAIN,api-h2.tiktokv.com
+DOMAIN,api2-16-h2.musical.ly
+DOMAIN,api2-19-h2.musical.ly
+
+# Twitter
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitter.com
+
+# Telegram
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,tdesktop.com
+IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/22,no-resolve
+IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,149.154.164.0/22,no-resolve
