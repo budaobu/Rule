@@ -3,7 +3,7 @@ let path2 = '/user/profile';
 
 if (url.indexOf(path1) != -1) {
     var obj = JSON.parse(body);
-    delete obj['data.adList'];
+    delete obj['data'];
     result = JSON.stringify(obj);
 }
 
