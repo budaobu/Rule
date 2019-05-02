@@ -21,7 +21,7 @@ if (url.indexOf(path2) != -1) {
     result = JSON.stringify(obj);
 }
 
-if (url.indexOf(path2) != -1) {
+if (url.indexOf(path3) != -1) {
   function replaceAll(str, find, replace){
   	return str.replace(new RegExp(find, 'g'), replace);
   }
