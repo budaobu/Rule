@@ -30,5 +30,4 @@ if (url.indexOf(path3) != -1) {
     obi.data.isVIPLuxAutoPay = 2；
     result = JSON.stringify(obj);
 }
-}
 result;
