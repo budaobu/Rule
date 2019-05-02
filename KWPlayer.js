@@ -1,6 +1,6 @@
 let path1 = '/vip/v2/user/vip';
 let path2 = '/music.pay';
-let path3 = '/vip/spi/mservice'
+let path3 = '/vip/spi/mservice';
 
 if (url.indexOf(path1) != -1) {
     var obj = JSON.parse(body);
