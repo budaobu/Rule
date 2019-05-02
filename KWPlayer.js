@@ -1,5 +1,6 @@
 let path1 = '/vip/v2/user/vip';
 let path2 = '/music.pay';
+let path3 = '/vip/spi/mservice'
 
 if (url.indexOf(path1) != -1) {
     var obj = JSON.parse(body);
@@ -22,5 +23,12 @@ if (url.indexOf(path2) != -1) {
     keywords.forEach(function(k) {
 	result = replaceAll(result, k, 'song');
 });
+
+if (url.indexOf(path3) != -1) {
+    var obj = JSON.parse(body);
+    obj.data.isVIPMAutoPay = 2;
+    obi.data.isVIPLuxAutoPay = 2；
+    result = JSON.stringify(obj);
+}
 }
 result;
