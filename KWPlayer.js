@@ -1,6 +1,5 @@
 let path1 = '/vip/v2/user/vip';
-let path2 = '/vip/spi/mservice';
-let path3 = '/music.pay';
+let path2 = '/music.pay';
 
 if (url.indexOf(path1) != -1) {
     var obj = JSON.parse(body);
@@ -15,21 +14,13 @@ if (url.indexOf(path1) != -1) {
 }
 
 if (url.indexOf(path2) != -1) {
-    var obj = JSON.parse(body);
-    obj.data.isVIPMAutoPay = 2;
-    obi.data.isVIPLuxAutoPay = 2；
-    result = JSON.stringify(obj);
+    function replaceAll(str, find, replace){
+	return str.replace(new RegExp(find, 'g'), replace);
 }
-
-if (url.indexOf(path3) != -1) {
-  function replaceAll(str, find, replace){
-  	return str.replace(new RegExp(find, 'g'), replace);
-  }
-  
-  var keywords = ['vip'];
-  var result = body;
-  keywords.forEach(function(k) {
-  	result = replaceAll(result, k, 'song');
-  });
+    var keywords = ['vip'];
+    var result = body;
+    keywords.forEach(function(k) {
+	result = replaceAll(result, k, 'song');
+});
 }
 result;
