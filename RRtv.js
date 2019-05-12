@@ -4,7 +4,7 @@ let path2 = '/v3plus/medal';
 if (url.indexOf(path1) != -1) {
     var obj = JSON.parse(body);
     obj['data']['user']['medalList'] = JSON.parse('[{"name":"1080P","endTime":"2022-01-01 00:00:00","imgUrl":"http://img.rr.tv/medal/20180607/o_1528365641950.png","id":25}]');
-    obj['data']['user']['privilegeList'] = JSON.parse('[{"effectObject":"video","action":"play","func":"originalPainting","description":"解锁原画","icon":"jiesuoyuanhua","endTime":1640966400000}]');
+    obj['data']['user']['privilegeList'] = JSON.parse('[{"effectObject":"video","action":"play","func":"originalPainting","description":"解锁原画","icon":"jiesuoyuanhua","endTime":1640966400000},{"effectObject":"video","action":"play","func":"noLimit","description":"看剧无限制","icon":"kanjuwuxianzhi","endTime":1640966400000},{"effectObject":"video","action":"play","func":"noAd","description":"看剧无广告","icon":"kanjuwuguanggao","endTime":1640966400000}]');
     result = JSON.stringify(obj);
 }
 
