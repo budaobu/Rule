@@ -1,7 +1,8 @@
 let path1 = '/user/profile';
 let path2 = '/v3plus/index/channel';
-let path3 = '/v3plus/index/todayChoice';
-let path4 = '/v3plus/medal/getAllMedalDetailWithPiece';
+let path3 = '/v3plus/video/getTopFeed';
+let path4 = '/v3plus/index/todayChoice';
+let path5 = '/v3plus/medal/getAllMedalDetailWithPiece';
 
 if (url.indexOf(path1) != -1) {
     var obj = JSON.parse(body);
@@ -21,6 +22,13 @@ if (url.indexOf(path2) != -1) {
 if (url.indexOf(path3) != -1) {
     var obj = JSON.parse(body);
     delete obj['data']['notice'];
+    obj['data']['indexView']['interestingList'].splice(3,1);
+    result = JSON.stringify(obj);
+}
+
+if (url.indexOf(path4) != -1) {
+    var obj = JSON.parse(body);
+    delete obj['data']['notice'];
     obj['data']['sections'].splice(2,1);
     obj['data']['sections'].splice(4,1);
     obj['data']['sections'].splice(8,1);
@@ -28,7 +36,7 @@ if (url.indexOf(path3) != -1) {
     result = JSON.stringify(obj);
 }
 
-if (url.indexOf(path4) != -1) {
+if (url.indexOf(path5) != -1) {
     var obj = JSON.parse(body);
     function replaceAll(str, find, replace){
 	return str.replace(new RegExp(find, 'g'), replace);
