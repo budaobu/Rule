@@ -13,7 +13,8 @@ if (url.indexOf(path1) != -1) {
 if (url.indexOf(path2) != -1) {
     var obj = JSON.parse(body);
     obj['data']['sections'].splice(1,1);
-    obj['data']['sections'].splice(15,1);
+    obj['data']['sections'].splice(2,1);
+    obj['data']['sections'].splice(14,1);
     result = JSON.stringify(obj);
 }
 
